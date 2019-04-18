@@ -1,18 +1,21 @@
 <form>
 
+
   <div class="container">
     <label for="uname"><b>EUID</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" class="userinput" placeholder="Enter Username" name="uname" required>
 
+	<br/>
+	
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" class="pwinput" placeholder="Enter Password" name="psw" required>
 
-    <button type="submit">Login</button>
+    <button mat-raised-button color="white" type="submit" class="loginbutton"><img class="login" src="assets/img/login.png"></button>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw"> Forgot <a href="#">password?</a></span>
   </div>
 
 </form>

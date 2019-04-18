@@ -1,0 +1,16 @@
+.userinput{
+	position: relative;
+	left: 50px;
+}
+
+.pwinput{
+	position: relative;
+	left: 13px;
+}
+
+.loginbutton {
+	padding: 0;
+	position: relative;
+	top: -14px;
+	left: 25px;
+}
