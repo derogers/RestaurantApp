@@ -1,6 +1,6 @@
 <form>
 
-
+	<br/>
   <div class="container">
     <label for="uname"><b>EUID</b></label>
     <input type="text" class="userinput" placeholder="Enter Username" name="uname" required>
@@ -10,10 +10,10 @@
     <label for="psw"><b>Password</b></label>
     <input type="password" class="pwinput" placeholder="Enter Password" name="psw" required>
 
-    <button mat-raised-button color="white" type="submit" class="loginbutton"><img class="login" src="assets/img/login.png"></button>
+    <button mat-raised-button routerLink="/manager" color="white" type="submit" class="loginbutton"><img class="login" src="assets/img/login.png"></button>
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
+  <div class="footer" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw"> Forgot <a href="#">password?</a></span>
   </div>
